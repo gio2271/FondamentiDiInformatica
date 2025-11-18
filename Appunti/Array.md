@@ -295,7 +295,15 @@ for (int i = riemp - 1; i > pos; i--)
 vet[pos] = el; 
 
 ```
+### Selection Sort 
+Il **Selection Sort** è un algoritmo di ordinamento che organizza una sequenza dividendola logicamente in due segmenti dinamici: una sottosequenza iniziale ordinata, che parte vuota e cresce progressivamente verso destra, e la restante parte non ordinata che inizialmente copre l'intero vettore. Il funzionamento si basa su un **processo iterativo** in cui, ad ogni passo, l'algoritmo scansiona l'intera porzione non ordinata per individuarne il valore minimo assoluto; tale valore viene quindi scambiato con il primo elemento della sezione disordinata, consolidando la sua posizione corretta ed estendendo di conseguenza la parte ordinata, fino a quando l'intera lista non risulta completamente organizzata.
 
+```
+
+
+```
+
+### Ricerca ingenua
 ----------
 
 ## 8. Accesso a Matrici
