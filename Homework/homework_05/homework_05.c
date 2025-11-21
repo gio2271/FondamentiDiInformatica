@@ -5,6 +5,7 @@
 void distanzaPunti(double, double, double, double, double*);
 int batteryManager(double*, double, char);
 
+
 int main()
 {
     // Inizializzazione variabili
@@ -46,11 +47,13 @@ int main()
     }
     while( (batteryLevel < 0) || (batteryLevel > 100) );
 
+
     printf("Energia da applicare: ");
     scanf("%lf", &x);
 
     printf("Azione (+ per caricare, - per consumare): ");
     scanf(" %c", &batteryOp);
+
 
     // Chiamo la FUNZIONE per l'aggiornamento dello stato della batteria
     switch (batteryManager(&batteryLevel, x, batteryOp))    // Dato che la funzione restituisce un valore INTERO posso utilizzare il blocco switch-case

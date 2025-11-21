@@ -62,7 +62,5 @@ int main()
     for(i = 0; i < COLONNE; i++)
         printf("%d ", matrice[i][i]);
 
-
-
     return 0;
 }
