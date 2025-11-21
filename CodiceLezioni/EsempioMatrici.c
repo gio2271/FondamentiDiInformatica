@@ -87,6 +87,7 @@ void generaMatrice(int matrice[N][N])
 
 void stampaMatrice(int matrice[N][N])
 {
+    
     int i, j;
     printf("Matrice Casuale %d x %d:\n", N, N);
     for (i = 0; i < N; i++)
