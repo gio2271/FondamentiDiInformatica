@@ -1,0 +1,11 @@
+        printf("==============================?=========================\n");
+        printf("||                  MENU GESTIONE SENSORI             ||\n");
+        printf("========================================================\n");
+        printf("|| 1. Inserisci nuove misurazioni                     ||\n");
+        printf("|| 2. Stampa l'elenco delle misurazioni               ||\n");
+        printf("|| 3. Cancella prima misurazione con valore minimo    ||\n");
+        printf("|| 4. Inserisci una nuova misura in base al timestamp ||\n");
+        printf("|| 5. Ordina l'array per timestamp crescente          ||\n");
+        printf("|| 0. Esci dal programma                              ||\n");
+        printf("====================================================\n");
+        printf("Inserisci la tua scelta: ");
